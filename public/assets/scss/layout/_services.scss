@@ -210,7 +210,7 @@
         line-height: 44px;
         font-weight: 700;
         color: var(--tp-common-white);
-        background-image: linear-gradient(90deg, rgb(90, 110, 248) 0%, rgb(254, 122, 143) 100%);
+        background-image: linear-gradient(90deg, #BD2120 0%, #BD2120 100%);
     }
 
     &__list-box {
@@ -279,7 +279,7 @@
         &-icon {
             font-size: 80px;
             line-height: 1;
-            background-image: linear-gradient(0deg, #5a6ef8, #fe7a8f);
+            background-image: linear-gradient(0deg, #BD2120, #BD2120);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
