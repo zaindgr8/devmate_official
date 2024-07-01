@@ -65,13 +65,13 @@ const HeaderThree = () => {
                         </button>
                       </form>
                     </div>
-                    <div
+                    {/* <div
                       className="tp-header-nav"
                       onClick={() => setIsActive(true)}
                     >
                       <span></span>
                       <span></span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -79,7 +79,7 @@ const HeaderThree = () => {
           </div>
         </div>
       </header>
-      <Sidebar isActive={isActive} setIsActive={setIsActive} />
+      {/* <Sidebar isActive={isActive} setIsActive={setIsActive} /> */}
     </>
   );
 };
