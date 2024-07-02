@@ -61,7 +61,7 @@ const PricePlan = () => {
               <div className="section-title-wraper text-center mb-60">
                 <div className="tp-section">
                   <span className="tp-section__subtitle mb-15 shadow-none text-grey p-0 wow tpfadeUp">
-                    Our Price
+                    Starting From
                   </span>
                   <h2 className="tp-section__title mb-30 wow tpfadeUp">
                     Price & <b className="text-red-700">Plans</b>

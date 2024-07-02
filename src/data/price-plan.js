@@ -2,7 +2,7 @@
 const price_plan_data = [
   {
     id: 1,
-    price: "149",
+    price: "699",
     title: "For Small Enterprise",
     active: "",
     des: <>Perfect for Entrepreneurs and Small Business Owners</>,
@@ -25,7 +25,7 @@ const price_plan_data = [
   },
   {
     id: 2,
-    price: "549",
+    price: "1799",
     title: "For Agency & Company",
     active: "active",
     des: <>Ideal for Growing Businesses and Agencies</>,
@@ -48,7 +48,7 @@ const price_plan_data = [
   },
   {
     id: 3,
-    price: "989",
+    price: "3899",
     title: "For Big Company & Team",
     active: "",
     des: <>Tailored for Large Enterprises and Big Teams</>,

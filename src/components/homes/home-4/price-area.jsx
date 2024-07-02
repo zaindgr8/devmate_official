@@ -5,7 +5,7 @@ import React from "react";
 
 
 const price_content = {
-    title: "Starting From (Consultancy)",
+    title: "Our Pricing",
     sub_title: "Our Price & Plans"
 }
 
