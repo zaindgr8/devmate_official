@@ -1,6 +1,7 @@
 import ScrollToTop from "@/hooks/scroll-to-top";
 import { animationCreate } from "@/utils/utils";
 import React, { useEffect } from "react";
+import Whatsapp from "../pages/whatsapp";
 
 const Wrapper = ({ children }) => {
 
@@ -12,8 +13,9 @@ const Wrapper = ({ children }) => {
 
   return (
     <>
+    <Whatsapp/>
       {children}
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
     </>
   );
 };

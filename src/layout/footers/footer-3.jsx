@@ -66,7 +66,7 @@ const FooterThree = ({style_4}) => {
                           </span>
                           <b>
                             <a href="mailto:info@gencio.com">
-                              info@devmatesolutions.com
+                              contact@devmatesolutions.com
                             </a>
                           </b>
                         </span>

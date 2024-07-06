@@ -93,7 +93,7 @@ const HeroBanner = () => {
                 {/* <div className="da-hero-black-box bg-black float-end">
                   <span>
                     <a href="mailto:info@genico.com">
-                      info@devmatesolutions.com
+                      contact@devmatesolutions.com
                     </a>
                   </span>
               
