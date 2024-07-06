@@ -87,21 +87,17 @@ const HeroBanner = () => {
                 transitionSpeed={1000}
                 gyroscope={true}
               >
-                <div className="tp-da-hero-img text-end pr-30">
+                <div className=" text-end pr-30">
                   <img src="/assets/img/new/hero.jpg" alt="" />
                 </div>
-                <div className="da-hero-black-box bg-black float-end">
+                {/* <div className="da-hero-black-box bg-black float-end">
                   <span>
                     <a href="mailto:info@genico.com">
                       info@devmatesolutions.com
                     </a>
                   </span>
-                  {/* <span className="float-end">
-                    <a href="mailto:info@genico.com">
-                      Our Portfolio <i className="fal fa-long-arrow-right"></i>
-                    </a>
-                  </span> */}
-                </div>
+              
+                </div> */}
               </Tilt>
             </div>
           </div>
