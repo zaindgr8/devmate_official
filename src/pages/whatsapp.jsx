@@ -1,23 +1,20 @@
 import React from "react";
-import { useRouter } from "next/router";
 import { FaWhatsapp } from "react-icons/fa"; // Import FaWhatsapp from react-icons/fa
 
 const Whatsapp = () => {
-  const router = useRouter();
-
   const handleClick = async () => {
     let url;
     // Check if WhatApp installed, if yes open whatsapp else open whatsapp web
     if (navigator.userAgent.includes("WhatsApp")) {
       // WhatsApp is installed
-      url = `whatsapp://send?phone=8879xxxxxx`; // Use template literals for cleaner string construction
+      url = `whatsapp://send?phone=971585984869`; // Use template literals for cleaner string construction
     } else {
       // WhatsApp is not installed, open WhatsApp Web
       url = "https://web.whatsapp.com/send?phone=971585984869";
     }
 
-    // Redirect using Next.js router (prevents opening new window)
-    router.push(url);
+    // Open URL in a new tab using window.open
+    window.open(url, "_blank");
   };
 
   return (
