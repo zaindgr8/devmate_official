@@ -4,13 +4,17 @@ import { FaWhatsapp } from "react-icons/fa"; // Import FaWhatsapp from react-ico
 const Whatsapp = () => {
   const handleClick = async () => {
     let url;
+    const preMessage =
+      "Hi there!  I'm interested in learning more about DEVMATE Digital Marketing and Software Solutions. Could you please provide me with more details? Thanks!";
+    const encodedMessage = encodeURIComponent(preMessage);
+
     // Check if WhatApp installed, if yes open whatsapp else open whatsapp web
     if (navigator.userAgent.includes("WhatsApp")) {
       // WhatsApp is installed
-      url = `whatsapp://send?phone=971585984869`; // Use template literals for cleaner string construction
+      url = `whatsapp://send?phone=971585984869&text=${encodedMessage}`;
     } else {
       // WhatsApp is not installed, open WhatsApp Web
-      url = "https://web.whatsapp.com/send?phone=971585984869";
+      url = `https://web.whatsapp.com/send?phone=971585984869&text=${encodedMessage}`;
     }
 
     // Open URL in a new tab using window.open
