@@ -1,28 +1,30 @@
 import React from "react";
-import { FaWhatsapp } from "react-icons/fa"; // Import FaWhatsapp from react-icons/fa
+import { FaWhatsapp } from "react-icons/fa";
 
 const Whatsapp = () => {
   const handleClick = async () => {
-    let url;
-    const preMessage =
-      "Hi there!  I'm interested in learning more about DEVMATE Digital Marketing and Software Solutions. Could you please provide me with more details? Thanks!";
-    const encodedMessage = encodeURIComponent(preMessage);
+    const phoneNumber = "971585984869"; // Replace with your WhatsApp number
+    const message =
+      "Hi there! I'm interested in learning more about DEVMATE Digital Marketing and Software Solutions. Could you please provide me with more details? Thanks!";
+    const encodedMessage = encodeURIComponent(message);
 
-    // Check if WhatApp installed, if yes open whatsapp else open whatsapp web
-    if (navigator.userAgent.includes("WhatsApp")) {
-      // WhatsApp is installed
-      url = `whatsapp://send?phone=971585984869&text=${encodedMessage}`;
+    // Determine if WhatsApp is installed
+    const isWhatsAppInstalled = /WhatsApp/.test(navigator.userAgent);
+
+    // Construct the URL based on whether WhatsApp is installed or not
+    let url;
+    if (isWhatsAppInstalled) {
+      url = `whatsapp://send?phone=${phoneNumber}&text=${encodedMessage}`;
     } else {
-      // WhatsApp is not installed, open WhatsApp Web
-      url = `https://web.whatsapp.com/send?phone=971585984869&text=${encodedMessage}`;
+      url = `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
     }
 
-    // Open URL in a new tab using window.open
+    // Open URL in a new tab
     window.open(url, "_blank");
   };
 
   return (
-    <button // Use a button element for better accessibility
+    <button
       className="bg-green-600 z-20 w-min p-2 rounded-full fixed bottom-10 right-4 cursor-pointer md:right-8"
       onClick={handleClick}
     >
