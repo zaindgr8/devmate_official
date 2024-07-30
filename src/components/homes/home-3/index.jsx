@@ -2,6 +2,7 @@ import LineWrap from "@/src/common/line-wrap";
 import FooterThree from "@/src/layout/footers/footer-3";
 import HeaderThree from "@/src/layout/headers/header-3";
 import React from "react";
+import AboutMe from "../../about-me";
 import About from "./about";
 import BlogArea from "./blog-area";
 import CtaArea from "./cta-area";
@@ -25,6 +26,7 @@ const HomeThree = () => {
       <CtaArea />
       {/* <ProjectArea /> */}
       <PricePlan />
+      <AboutMe/>
       {/* <OurTeam /> */}
       <Testimonial />
       {/* <BlogArea /> */}

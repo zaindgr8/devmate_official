@@ -9,12 +9,12 @@ import ItCtaArea from "./it-cta-area";
 const AboutMe = () => {
   return (
     <>
-      <Header /> 
+      {/* <Header />  */}
       <HeroAboutMe />
-      <AboutMeInfo />
+      {/* <AboutMeInfo />
       <AboutMeImages /> 
       <ItCtaArea />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };

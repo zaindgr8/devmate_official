@@ -2,25 +2,37 @@ import React from "react";
 // social_links
 const social_links = [
   {
-    link: "http://facebook.com",
+    link: "https://www.facebook.com/zaindgr8/",
     target: "_blank",
     icon: "fab fa-facebook-f",
     name: "Facebook",
   },
   {
-    link: "http://twitter.com",
+    link: "https://www.linkedin.com/in/zain-ul-abideen-baloch/",
     target: "_blank",
-    icon: "fab fa-twitter",
-    name: "Twitter",
+    icon: "fab fa-linkedin",
+    name: "LinkedIn",
   },
   {
-    link: "https://www.behance.com/",
+    link: "https://www.instagram.com/zainulabideen0007/",
     target: "_blank",
-    icon: "fab fa-behance",
-    name: "Behance",
+    icon: "fab fa-instagram",
+    name: "Instagram",
   },
   {
-    link: "https://www.youtube.com/",
+    link: "https://www.tiktok.com/@desigeek0007",
+    target: "_blank",
+    icon: "fab fa-tiktok",
+    name: "Youtube",
+  },
+  {
+    link: "https://github.com/zaindgr8?tab=repositories",
+    target: "_blank",
+    icon: "fab fa-github",
+    name: "Github",
+  },
+  {
+    link: "https://www.youtube.com/channel/UC990B95EKNuVaCVcdo_-9Yg",
     target: "_blank",
     icon: "fab fa-youtube",
     name: "Youtube",
@@ -31,7 +43,12 @@ const SocialLinks = () => {
   return (
     <>
       {social_links.map((item, i) => (
-        <a key={i} target="_blank" href={item.link}>
+        <a
+          className="hover:text-[#B91C1B]"
+          key={i}
+          target="_blank"
+          href={item.link}
+        >
           <i className={item.icon}></i>
         </a>
       ))}
@@ -44,35 +61,41 @@ export default SocialLinks;
 
 const social_links_home_two = [
   {
-    link: "http://facebook.com",
+    link: "https://www.facebook.com/zaindgr8/",
     target: "_blank",
     icon: "fab fa-facebook-f",
     name: "Facebook",
   },
   {
-    link: "http://twitter.com",
+    link: "https://www.linkedin.com/in/zain-ul-abideen-baloch/",
     target: "_blank",
-    icon: "fab fa-twitter",
-    name: "Twitter",
+    icon: "fab fa-linkedin",
+    name: "LinkedIn",
   },
   {
-    link: "https://www.behance.com/",
+    link: "https://www.instagram.com/zainulabideen0007/",
     target: "_blank",
-    icon: "fab fa-behance",
-    name: "Behance",
+    icon: "fab fa-instagram",
+    name: "Instagram",
   },
   {
-    link: "https://www.youtube.com/",
+    link: "https://www.tiktok.com/@desigeek0007",
+    target: "_blank",
+    icon: "fab fa-tiktok",
+    name: "Youtube",
+  },
+  {
+    link: "https://github.com/zaindgr8?tab=repositories",
+    target: "_blank",
+    icon: "fab fa-github",
+    name: "Github",
+  },
+  {
+    link: "https://www.youtube.com/channel/UC990B95EKNuVaCVcdo_-9Yg",
     target: "_blank",
     icon: "fab fa-youtube",
     name: "Youtube",
   },
-  {
-    link: "https://www.linkedin.com/en/",
-    target: "_blank",
-    icon: "fab fa-linkedin",
-    name: "Linkedin"
-  }
 ];
 
 export const SocialLinksHomeTwo = () => {
