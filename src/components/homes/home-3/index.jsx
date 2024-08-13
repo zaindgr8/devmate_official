@@ -26,7 +26,7 @@ const HomeThree = () => {
       <CtaArea />
       {/* <ProjectArea /> */}
       <PricePlan />
-      <AboutMe/>
+      {/* <AboutMe/> */}
       {/* <OurTeam /> */}
       <Testimonial />
       {/* <BlogArea /> */}
