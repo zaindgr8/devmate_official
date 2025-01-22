@@ -3,6 +3,7 @@ import FooterThree from "@/src/layout/footers/footer-3";
 import HeaderThree from "@/src/layout/headers/header-3";
 import React from "react";
 import AboutMe from "../../about-me";
+import GallerySlider from "../home-6/gallery-slider";
 import About from "./about";
 import BlogArea from "./blog-area";
 import CtaArea from "./cta-area";
@@ -14,6 +15,7 @@ import ProjectArea from "./project-area";
 import ServiceArea from "./service-area";
 import Testimonial from "./testimonial";
 
+
 const HomeThree = () => {
   return (
     <>
@@ -21,6 +23,7 @@ const HomeThree = () => {
       <HeaderThree />
       <HeroBanner />
       <FeatureLists />
+      <GallerySlider />
       <About />
       <Testimonial />
       <ServiceArea />

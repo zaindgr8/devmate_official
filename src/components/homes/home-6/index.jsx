@@ -15,7 +15,7 @@ const HomeSix = () => {
       <MpCtaArea />
       <Brand />
       <Portfolio />
-      <GallerySlider />
+      {/* <GallerySlider /> */}
       <FooterFive />
     </>
   );

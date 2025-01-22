@@ -47,7 +47,7 @@ const testimonial_data = [
   {
     id: 3,
     img: "/assets/img/testimonial/3.png",
-    name: "Humood Al Adhari",
+    name: "Umer Shauket",
     title: "CEO, CRESCO Real Estate 🇦🇪",
     des: (
       <>

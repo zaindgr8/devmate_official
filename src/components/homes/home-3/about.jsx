@@ -6,7 +6,7 @@ import Tilt from "react-parallax-tilt";
 const About = () => {
   return (
     <>
-      <div className="tp-da-about pt-120 pb-90">
+      <div className="tp-da-about pt-60 pb-90">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 wow tpfadeUp" data-wow-delay=".3s">
