@@ -105,7 +105,7 @@ const testimonial_data = [
   {
     id: 7,
     img: "/assets/img/testimonial/7.png",
-    name: "Mr Ayaz",
+    name: "Ayaz Momin",
     title: "CEO, Thread & Beams 🇺🇸",
     des: (
       <>
