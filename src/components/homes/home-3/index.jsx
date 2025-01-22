@@ -17,18 +17,18 @@ import Testimonial from "./testimonial";
 const HomeThree = () => {
   return (
     <>
-    <LineWrap />
+      <LineWrap />
       <HeaderThree />
       <HeroBanner />
       <FeatureLists />
       <About />
+      <Testimonial />
       <ServiceArea />
       <CtaArea />
       {/* <ProjectArea /> */}
       <PricePlan />
       {/* <AboutMe/> */}
       {/* <OurTeam /> */}
-      <Testimonial />
       {/* <BlogArea /> */}
       <FooterThree />
     </>

@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 const testimonial_content  = {
     big_title: "Feedback",
-    title:"Testimonials",
+    title:"Testimonialss",
     sub_title: "Users Feedback",
 }
 

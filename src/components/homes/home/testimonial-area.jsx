@@ -17,9 +17,9 @@ const setting = {
 const ts_slider = [
   {
     id: 1,
-    img: "/assets/img/testimonial/testi-avata-1.png",
-    name: "River Craft",
-    title: "Marketing Head, Cascade Consulting",
+    img: "/assets/img/testimonial/hsn.jpeg",
+    name: "Iman Bordouf",
+    title: "CEO, Art Of Living By Iman",
     des: (
       <>
         “ Our award-winning US-based experts are available to help when you get
@@ -29,7 +29,7 @@ const ts_slider = [
   },
   {
     id: 2,
-    img: "/assets/img/testimonial/testi-avata-2.png",
+    img: "/assets/img/testimonial/imn.jpeg",
     name: "Jayson Mahoney",
     title: "CTO, Lunar Linguistics",
     des: (
