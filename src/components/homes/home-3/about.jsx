@@ -35,31 +35,38 @@ const About = () => {
                       Pioneering Digital Revolution Since 2018
                     </span>
                     <h2 className="tp-section__title mb-30">
-                      <b className="text-red-700">Checkmate</b> your Software and Digital Marketing
-                      goals with <b className="text-red-700">DEVMATE</b>
+                      <b className="text-red-700">Checkmate</b> your Software
+                      and Digital Marketing goals with{" "}
+                      <b className="text-red-700">DEVMATE</b>
                     </h2>
                   </div>
                 </div>
-                
+
                 <div className="tp-da-about-fea pb-25 mb-10">
                   <ul>
                     <li>
                       <span>
                         <i className="fal fa-check"></i>
                       </span>
-                      Build an Unbeatable Online Presence
+                      Build Top-Notch Websites & Apps
                     </li>
                     <li>
                       <span>
                         <i className="fal fa-check"></i>
                       </span>
-                      Grow Your Business Strategically
+                      Advanced Ai Agents and Automation
                     </li>
                     <li>
                       <span>
                         <i className="fal fa-check"></i>
                       </span>
-                      Scale Efficiently and Securely with AI Approach
+                      Blockchain & NFTs Tokenization
+                    </li>
+                    <li>
+                      <span>
+                        <i className="fal fa-check"></i>
+                      </span>
+                      Helps You Go Viral on Social Media
                     </li>
                   </ul>
                 </div>

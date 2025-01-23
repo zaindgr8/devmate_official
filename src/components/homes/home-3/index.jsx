@@ -31,7 +31,7 @@ const HomeThree = () => {
       <OurTeam />
       {/* <ProjectArea /> */}
       <PricePlan />
-      {/* <AboutMe/> */}
+      <AboutMe/>
       {/* <BlogArea /> */}
       <FooterThree />
     </>

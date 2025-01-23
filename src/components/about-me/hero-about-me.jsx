@@ -28,7 +28,7 @@ const HeroAboutMe = () => {
                     transitionSpeed={1000}
                     gyroscope={true}
                   >
-                    <img src="/assets/img/about/mee.jpg" alt="" />
+                    <img src="/assets/img/about/me1.png" alt="" />
                   </Tilt>
                 </div>
               </div>
@@ -42,13 +42,19 @@ const HeroAboutMe = () => {
                       Zain Ul Abideen Baloch
                     </h2>
                     <p className="mb-0 pb-40">
-                      "At DEVMATE Solutions, we value passion over perfection &
-                      hires accordignly. We started as a service-based
-                      but aim to launch solution-orietned and SAAS products. Our goal is to
-                      reach a company valuation of $1 billion by 2029 and create
-                      over 10,000+ jobs by 2027. We always adopt new
-                      technologies to work more efficiently and stay current.
-                      Join us and be part of this digital revolution today."
+                      "At Devmate Solutions, we are proud to serve clients
+                      across Europe, the USA, and the GCC in a variety of
+                      industries.
+                      <br /> Our core values—professionalism, commitment, and
+                      collaboration—drive everything we do. <br />
+                      We treat our clients' projects as our own, delivering
+                      cutting-edge solutions with a personal touch. <br />
+                      As we look to the future, we are excited to develop unique
+                      AI automation solutions and launch innovative startups.
+                      <br />
+                      Staying ahead in a rapidly changing world, we ensure our
+                      services remain efficient, effective, and up-to-date.
+                      Let’s build the future together!"
                     </p>
                   </div>
                   <div className="about-me-socials">
