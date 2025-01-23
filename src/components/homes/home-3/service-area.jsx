@@ -8,23 +8,19 @@ const service_data = [
   {
     id: 1,
     counter: "01",
-    title: (
-      <>
-        Web & App <br /> Development
-      </>
-    ),
+    title: <>AI Voice Agents</>,
     des: (
       <>
-        Transform your ideas into reality with our cutting-edge Web and App (IOS
-        & Android) development services.
+        Automate calls with intelligent, 24/7 AI that delivers seamless,
+        human-like interactions for enhanced customer service.
       </>
     ),
     delay: ".4s",
     list_item: [
-      "Custom Solutions",
-      "Responsive Design",
-      "Scalable Architecture",
-      "Advanced Technologies",
+      "24/7 Customer Care",
+      "Cost Efficient",
+      "Inbound & Outbound Lead Generation",
+      "Appointments & Bookings",
     ],
   },
   {
@@ -33,43 +29,39 @@ const service_data = [
     title: (
       <>
         {" "}
-        Ecommerce <br /> Development
+        AI Smart Chatbots <br />
       </>
     ),
     des: (
       <>
-        From user-friendly storefronts to secure payment gateways, we provide
-        everything you need to sell online.
+        Instant, AI-powered support that engages customers 24/7 with accurate,
+        automated responses.
       </>
     ),
     delay: ".5s",
     list_item: [
-      "Custom Storefronts",
-      "Secure Payment Integration",
-      "Optimized for Sales",
-      "Inventory Management",
+      "Instant Responses",
+      "Human Like Conversation",
+      "24/7 Lead Generation",
+      "70% Increased Engagement",
     ],
   },
   {
     id: 3,
     counter: "03",
-    title: (
-      <>
-        SEO & <br /> Ad Campaigns
-      </>
-    ),
+    title: <>Custom AI Agents</>,
     des: (
       <>
-        Enhance Digital presence through strategic optimization and paid
-        Advertising Campaigns.
+        Personalized AI Agents tailored to your business requirements,
+        delivering seamless automation and enhanced functionalities.
       </>
     ),
     delay: ".5s",
     list_item: [
-      "Rank in top Google Pages",
-      "Reach Target Audience",
-      "Social Media Marketing",
-      "Generate Quality Leads",
+      "Tailored to Your Needs",
+      "Scalable Solutions",
+      "Cost-Effective",
+      "Boost Efficiency",
     ],
   },
 ];
@@ -79,20 +71,20 @@ const service_data = [
 const ServiceArea = () => {
   return (
     <>
-      <div className="pt-20 pb-90">
+      <div className="pt-20 pb-30">
         <div className="container">
           <div className="row">
             <div className="col-12">
               <div className="section-title-wraper text-center mb-60">
                 <div className="tp-section">
                   <span className="tp-section__subtitle mb-15 shadow-none text-grey p-0 wow tpfadeUp ">
-                    Our Services
+                    Your Partner in AI Transformation
                   </span>
                   <h2
                     className="tp-section__title mb-30 wow tpfadeUp"
                     data-wow-delay=".3s"
                   >
-                    Service We <b className="">Provide</b>
+                    <b className="">10x Your Business with AI!</b>
                   </h2>
                 </div>
               </div>

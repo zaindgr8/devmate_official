@@ -28,33 +28,33 @@ const team_data = [
 
     {
         id: 4,
-        img: "/assets/img/team/ca-team-1.jpg",
-        name: "Asonio D. Dowson",
-        title: "Founder",
+        img: "/assets/img/team/1.png",
+        name: "Fazal Khan",
+        title: "Full Stack Web Developer",
         delay: ".3s",
 
     },
     {
         id: 5,
-        img: "/assets/img/team/ca-team-2.jpg",
-        name: "Berat Battle",
-        title: "Head Of Design",
+        img: "/assets/img/team/2.png",
+        name: "Hamza Saleem",
+        title: "Graphic Designer",
         delay: ".4s",
 
     },
     {
         id: 6,
-        img: "/assets/img/team/ca-team-3.jpg",
-        name: "Matthew Swanson",
-        title: "CEO",
+        img: "/assets/img/team/3.png",
+        name: "Fawad",
+        title: "Wordpress Developer",
         delay: ".5s",
 
     },
     {
         id: 7,
-        img: "/assets/img/team/ca-team-4.jpg",
-        name: "Kirsty Mcdermott",
-        title: "Support Engineer",
+        img: "/assets/img/team/4.png",
+        name: "Ahmad Noor Khan",
+        title: "Block Chain Developer",
         delay: ".6s",
 
     },
@@ -62,7 +62,7 @@ const team_data = [
     // team page  01
     {
         id: 8,
-        img: "/assets/img/team/da-team-1.jpg",
+        img: "/assets/img/team/fzl.jpg",
         name: "Mixlox D. Jhonson",
         title: "Head Of Idea",
         delay: ".5s",
@@ -112,7 +112,7 @@ const team_data = [
     // tema page 02
     {
         id: 14,
-        img: "/assets/img/team/ca-team-1.jpg",
+        img: "/assets/img/team/fzl.jpeg",
         name: "Asonio D. Dowson",
         title: "Founder",
         delay: ".6s",

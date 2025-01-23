@@ -10,23 +10,24 @@ const CtaArea = () => {
       >
         <div className="container">
           <div
-            className="da-cta-area pt-45 pb-45"
+            className="da-cta-area  pb-45"
             style={{ backgroundImage: `url(/assets/img/cta/da-pattern2.png)` }}
           >
             <div className="row">
               <div className="col-lg-8 col-12">
                 <div className="da-cta-info ml-160">
                   <h4>
-                    Sit Back, Relax, Grow: Let Us Unleash the Power of Our 360
+                    🚀 We Can Help You Replace Humans with AI 🤖 <br />
+                    Save More with Our Smart Automation Solutions! 💡💸
                     <br />
-                    AI-Marketing Help You Grow Effortlessly.
+                    Why Hire Humans when AI does it better? 🤔✨
                   </h4>
                 </div>
               </div>
               <div className="col-xl-4 d-none d-lg-block">
                 <div className="da-cta-wraper mr-60 text-end">
                   <Link href="/contact" className="tp-grd-btn">
-                    Get In Touch
+                    Get Started
                     <span className="ml-10">
                       <i className="fal fa-long-arrow-right"></i>
                       <i className="fal fa-long-arrow-right"></i>
