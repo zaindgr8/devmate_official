@@ -48,7 +48,7 @@ const About = () => {
                       <span>
                         <i className="fal fa-check"></i>
                       </span>
-                      Build Top-Notch Websites & Apps
+                      Top-Notch Websites & Apps
                     </li>
                     <li>
                       <span>
@@ -60,13 +60,13 @@ const About = () => {
                       <span>
                         <i className="fal fa-check"></i>
                       </span>
-                      Blockchain & NFTs Tokenization
+                      NFTs & Blockchain Tokenization
                     </li>
                     <li>
                       <span>
                         <i className="fal fa-check"></i>
                       </span>
-                      Helps You Go Viral on Social Media
+                      Meta & Google Lead Generation
                     </li>
                   </ul>
                 </div>

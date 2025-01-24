@@ -31,7 +31,7 @@ const PricingPlan = ({service_style}) => {
                         <i className="fas fa-shopping-basket"></i>
                         <i className="fas fa-shopping-basket"></i>
                       </span>
-                      Purchase Now
+                      Purchase Now11
                     </Link>
                   </div>
                   <div className="tp-price-fea-list app-list">

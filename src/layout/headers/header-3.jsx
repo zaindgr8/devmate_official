@@ -36,7 +36,8 @@ const HeaderThree = () => {
                 <div className="col-xl-3 d-none d-xl-block">
                   <div className="da-header-cta-btn float-end mt-35">
                     <a
-                      href="/contact"
+                      target="_blank"
+                      href="https://calendly.com/devmatesolutions/get-started-elevate-your-business-with-devmate"
                       className="tp-grd-btn "
                     >
                       Get Quote
@@ -46,11 +47,15 @@ const HeaderThree = () => {
                       </span>
                     </a>
                     <p className="mt-10 mb-0">
-                      or <b>call:</b>
-                      <a className="" href="tel:+971585984869">
-                        {" "}
-                        +971 58 598 4869
-                      </a>
+                      or send an
+                      <b>
+                        <a
+                          className="ml-2"
+                          href="mailto:contact@devmatesolutions.com"
+                        >
+                          <i className="fal fa-envelope ml-1"></i> EMAIL
+                        </a>
+                      </b>
                     </p>
                   </div>
                 </div>

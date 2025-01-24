@@ -13,13 +13,16 @@ const price_plan_data = [
     ),
     price_list: [
       <>
-        <b>3D & AR Websites</b>
+        <b>3D Experience Websites</b>
       </>,
       <>
         <b>Full Stack Applications </b>
       </>,
       <>
         <b>Ecommerce Stores</b>
+      </>,
+      <>
+        <b>SEO Optimised</b>
       </>,
       <>
         <b>Aesthetic Figma Designs</b>
@@ -59,21 +62,29 @@ const price_plan_data = [
   {
     id: 3,
     price: "3899",
-    title: "For Big Company & Team",
+    title: "App Development",
     active: "",
-    des: <>Tailored for Large Enterprises and Big Teams</>,
+    des: (
+      <>
+        We build all kinds of apps—whether it’s AI-powered solutions, startup
+        apps, or apps tailored to any niche. Lets bring your idea into life!
+      </>
+    ),
     price_list: [
       <>
-        <b>Comprehensive Website </b>E-commerce Capabilities
+        <b>Android & IOS</b>
       </>,
       <>
-        <b>Meta & Google Adword </b>Qualified Leads
+        <b>AI-Powered Apps</b>
       </>,
       <>
-        <b>Hosting & Deployment</b> FREE
+        <b>Blockchain & Web 3.0</b>
       </>,
       <>
-        <b>FREE After Service </b>6 Months
+        <b>Flutter & IOS</b>
+      </>,
+      <>
+        <b>Cross-Platform</b>
       </>,
     ],
     bg_color: "catskill-white-bg",

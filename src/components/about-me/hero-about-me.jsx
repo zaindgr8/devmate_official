@@ -1,5 +1,6 @@
 import SocialLinks from '@/src/common/social-links';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
 
@@ -41,7 +42,7 @@ const HeroAboutMe = () => {
                     <h2 className="tp-section__title mb-20">
                       Zain Ul Abideen Baloch
                     </h2>
-                    <p className="mb-0 pb-40">
+                    <p className="mb-0 pb-20">
                       "At Devmate Solutions, we are proud to serve clients
                       across Europe, the USA, and the GCC in a variety of
                       industries.
@@ -55,9 +56,33 @@ const HeroAboutMe = () => {
                       Staying ahead in a rapidly changing world, we ensure our
                       services remain efficient, effective, and up-to-date.
                       Let’s build the future together!"
+                      <br />
+                      <br />
+                      <b>
+                        Offering FREE 1:1 Sessions for Business Owners,
+                        Entrepreneurs, and Students seeking expert consultancy.
+                        Book now with the button below! (Limited Slots)
+                      </b>
                     </p>
                   </div>
-                  <div className="about-me-socials">
+
+                  <div className="mb-8">
+                    <div className="text-start">
+                      <Link
+                        href="https://calendly.com/devmatesolutions/1-1-strategic-session-with-zain-ul-abideen"
+                        target="_blank"
+                        className="tp-grd-btn text-white"
+                      >
+                        Book 1:1 Session
+                        <span className="ml-10">
+                          <i className="fal fa-long-arrow-right"></i>
+                          <i className="fal fa-long-arrow-right"></i>
+                        </span>
+                      </Link>
+                    </div>
+                  </div>
+
+                  <div className="about-me-socials mb-6">
                     <div className="flex gap-x-2 space-x-2 w-[4vh] ">
                       <SocialLinks />
                     </div>

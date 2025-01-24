@@ -87,10 +87,10 @@ const PricePlan = () => {
                   <div className="tp-purcase-btn--wrapper mb-25">
                     <Link href="/contact" className="tp-grd-border-btn">
                       <span className="mr-5">
-                        <i className="fas fa-shopping-basket"></i>
-                        <i className="fas fa-shopping-basket"></i>
+                        <i className="fas fa-rocket"></i>
+                        <i className="fas fa-rocket"></i>
                       </span>
-                      Purchase Now
+                      Get Started
                     </Link>
                   </div>
                   <div className="tp-price-fea-list">
