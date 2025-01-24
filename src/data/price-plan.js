@@ -3,21 +3,26 @@ const price_plan_data = [
   {
     id: 1,
     price: "699",
-    title: "For Small Enterprise",
+    title: "Web Development",
     active: "",
-    des: <>Perfect for Entrepreneurs and Small Business Owners</>,
+    des: (
+      <>
+        Either 3D website or Full-Stack Application with modern design, We’ve
+        got you covered!
+      </>
+    ),
     price_list: [
       <>
-        <b>Business Website</b> Single Page
+        <b>3D & AR Websites</b>
       </>,
       <>
-        <b>Social Media </b>Creation
+        <b>Full Stack Applications </b>
       </>,
       <>
-        <b>FREE Hosting </b>6 Months
+        <b>Ecommerce Stores</b>
       </>,
       <>
-        <b>FREE After Service </b>30 Days
+        <b>Aesthetic Figma Designs</b>
       </>,
     ],
     bg_color: "catskill-white-bg",
@@ -26,21 +31,26 @@ const price_plan_data = [
   {
     id: 2,
     price: "1799",
-    title: "For Agency & Company",
+    title: "Social Media Marketing",
     active: "active",
-    des: <>Ideal for Growing Businesses and Agencies</>,
+    des: (
+      <>
+        Whether it's viral campaigns or targeted ads with custom content that
+        you want, you are at right place!
+      </>
+    ),
     price_list: [
       <>
-        <b>Business Website </b>Multipage
+        <b>Meta & Google Campaigns</b>
       </>,
       <>
-        <b>Social Media </b>Marketing
+        <b>Organic Followers</b>
       </>,
       <>
-        <b>SEO & SEM Setup </b>Moderate
+        <b>Lead Generation</b>
       </>,
       <>
-        <b>FREE After Service </b>60 Days
+        <b>Branding & Viral Content</b>
       </>,
     ],
     bg_color: "white-bg",

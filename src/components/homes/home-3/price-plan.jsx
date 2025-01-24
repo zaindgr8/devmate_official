@@ -61,10 +61,10 @@ const PricePlan = () => {
               <div className="section-title-wraper text-center mb-60">
                 <div className="tp-section">
                   <span className="tp-section__subtitle mb-15 shadow-none text-grey p-0 wow tpfadeUp">
-                    Starting From
+                    Our Popular Services
                   </span>
                   <h2 className="tp-section__title mb-30 wow tpfadeUp">
-                    Price & <b className="text-red-700">Plans</b>
+                    Development & <b className="text-red-700">Marketing</b>
                   </h2>
                 </div>
               </div>
@@ -77,10 +77,10 @@ const PricePlan = () => {
                   className={`tp-price-box ${item.active} white-bg mb-30 p-relative wow tpfadeUp`}
                 >
                   <div className="tp-price-box__info mb-35">
-                    <b>
+                    {/* <b>
                       <b className="text-red-500 text-sm mr-2">$</b>
                       {item.price}
-                    </b>
+                    </b> */}
                     <h4 className="tp-price-box__info-title">{item.title}</h4>
                     <span>{item.des}</span>
                   </div>

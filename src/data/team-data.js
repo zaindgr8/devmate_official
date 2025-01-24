@@ -36,7 +36,7 @@ const team_data = [
     },
     {
         id: 5,
-        img: "/assets/img/team/2.png",
+        img: "/assets/img/team/4.png",
         name: "Hamza Saleem",
         title: "Graphic Designer",
         delay: ".4s",
@@ -52,7 +52,7 @@ const team_data = [
     },
     {
         id: 7,
-        img: "/assets/img/team/4.png",
+        img: "/assets/img/team/2.png",
         name: "Ahmad Noor Khan",
         title: "Block Chain Developer",
         delay: ".6s",
