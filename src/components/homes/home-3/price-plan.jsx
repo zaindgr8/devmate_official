@@ -85,7 +85,11 @@ const PricePlan = () => {
                     <span>{item.des}</span>
                   </div>
                   <div className="tp-purcase-btn--wrapper mb-25">
-                    <Link href="/contact" className="tp-grd-border-btn">
+                    <Link
+                    target="_blank"
+                      href="https://calendly.com/devmatesolutions/get-started-elevate-your-business-with-devmate"
+                      className="tp-grd-border-btn"
+                    >
                       <span className="mr-5">
                         <i className="fas fa-rocket"></i>
                         <i className="fas fa-rocket"></i>

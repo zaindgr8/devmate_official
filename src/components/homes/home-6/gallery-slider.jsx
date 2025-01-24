@@ -105,7 +105,7 @@ const GallerySlider = () => {
                 <img
                   src={item}
                   alt=""
-                  style={{ width: "100%", height: "auto", objectFit: "cover" }}
+                  style={{ width: "50%", height: "auto", objectFit: "cover" }}
                 />
               </SwiperSlide>
             ))}

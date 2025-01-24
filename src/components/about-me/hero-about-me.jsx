@@ -43,25 +43,20 @@ const HeroAboutMe = () => {
                       Zain Ul Abideen Baloch
                     </h2>
                     <p className="mb-0 pb-20">
-                      "At Devmate Solutions, we are proud to serve clients
-                      across Europe, the USA, and the GCC in a variety of
-                      industries.
-                      <br /> Our core values—professionalism, commitment, and
-                      collaboration—drive everything we do. <br />
-                      We treat our clients' projects as our own, delivering
-                      cutting-edge solutions with a personal touch. <br />
-                      As we look to the future, we are excited to develop unique
-                      AI automation solutions and launch innovative startups.
-                      <br />
-                      Staying ahead in a rapidly changing world, we ensure our
-                      services remain efficient, effective, and up-to-date.
-                      Let’s build the future together!"
+                      I am honored to lead an exceptional team committed to
+                      delivering outstanding services and achieving our goals
+                      with dedication. We take pride in partnering with industry
+                      leaders to shape the future. As a forward-thinking
+                      company, we are relentlessly working on AI and innovation
+                      to stay ahead. With our Vision 2030, we aspire to become a
+                      tech giant, create hundreds of jobs, and lead the tech
+                      industry. Join us on our journey toward excellence!
                       <br />
                       <br />
                       <b>
                         Offering FREE 1:1 Sessions for Business Owners,
                         Entrepreneurs, and Students seeking expert consultancy.
-                        Book now with the button below! (Limited Slots)
+                        (Limited Slots!)
                       </b>
                     </p>
                   </div>

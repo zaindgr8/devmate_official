@@ -3,15 +3,15 @@ import React from 'react';
 import { SiMinutemailer } from "react-icons/si";
 
 const business_journey_content = {
-  sub_title: "Schedule a 30 minute call",
+  sub_title: "Take the Leap Toward Digital Success with Us",
   title: (
     <>
-      Launch & Grow Faster: Start Your
-      <br /> Digital Journey
+      Ready to Level Up? Let’s talk!
+      <br /> Connect Now!
     </>
   ),
-  img_1: "/assets/img/cta/1.svg",
-  img_2: "/assets/img/cta/2.svg",
+  img_1: "/assets/img/cta/1 2.svg",
+  img_2: "/assets/img/cta/2 2.svg",
 };
 const {sub_title, title, img_1, img_2}  = business_journey_content
 
@@ -69,7 +69,6 @@ const BusinessJourney = ({style_service}) => {
                         {/* <b className="is-hidden">Branding</b>
                                         <b className="is-visible">Markting</b> */}
                       </span>
-                      <span> Now!</span>
                     </h3>
                   </div>
                 </div>
@@ -78,7 +77,8 @@ const BusinessJourney = ({style_service}) => {
             <div className="row">
               <div className="bs-cta-btns text-center">
                 <Link
-                  href="/contact"
+                target="_blank"
+                  href="https://calendly.com/devmatesolutions/get-started-elevate-your-business-with-devmate"
                   className={`${
                     style_service ? "tp-btn" : "tp-grd-btn"
                   } mr-30 wow tpfadeUp`}

@@ -72,8 +72,11 @@ const About = () => {
                 </div>
                 <div className="tp--indo-btns d-flex flex-wrap align-items-center">
                   <div className="tp-da-link-btn mr-30 mb-30">
-                    <Link href="/contact" className="tp-grd-btn">
-                      get in touch
+                    <Link
+                      href="https://calendly.com/devmatesolutions/get-started-elevate-your-business-with-devmate"
+                      className="tp-grd-btn"
+                    >
+                      Unlock FREE Session
                       <span className="ml-10">
                         <i className="fal fa-long-arrow-right"></i>
                         <i className="fal fa-long-arrow-right"></i>

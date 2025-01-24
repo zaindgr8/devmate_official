@@ -40,7 +40,7 @@ const HeaderThree = () => {
                       href="https://calendly.com/devmatesolutions/get-started-elevate-your-business-with-devmate"
                       className="tp-grd-btn "
                     >
-                      Get Quote
+                      Book Demo
                       <span className="ml-10">
                         <i className="fal fa-long-arrow-right"></i>
                         <i className="fal fa-long-arrow-right"></i>
