@@ -36,7 +36,7 @@ const portfolio_data_two = [
   },
   {
     id: 4,
-    img: "/assets/img/portfolio/c.png",
+    img: "/assets/img/portfolio/3a.svg",
     name: "Wissam Serdoun",
     title: "Perfume brand in United Arab Emirates 🇦🇪",
     cls: "consultancy business",
