@@ -4,6 +4,7 @@ import HeaderThree from "@/src/layout/headers/header-3";
 import React from "react";
 import AboutMe from "../../about-me";
 import GallerySlider from "../home-6/gallery-slider";
+import Portfolio from "../home-6/portfolio";
 import OurTeam from "../home-8/our-team";
 import About from "./about";
 import BlogArea from "./blog-area";
@@ -23,7 +24,10 @@ const HomeThree = () => {
       <HeaderThree />
       <HeroBanner />
       <FeatureLists />
-      <GallerySlider />
+      {/* <GallerySlider /> */}
+      <Portfolio />
+      {/* <ProjectArea /> */}
+
       <About />
       <Testimonial />
       <ServiceArea />
@@ -32,6 +36,8 @@ const HomeThree = () => {
       {/* <ProjectArea /> */}
       <PricePlan />
       <AboutMe/>
+      <PricePlan />
+      <AboutMe />
       {/* <BlogArea /> */}
       <FooterThree />
     </>

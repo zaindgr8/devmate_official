@@ -11,10 +11,17 @@ const PortfolioArea = () => {
                   <div className="col-12">
                      <div className="tp-pf-btn-group text-center">
                         <button className="active" data-filter="*">All Work</button>
+<<<<<<< HEAD
                         <button data-filter=".design">UX Design</button>
                         <button data-filter=".business">HR Business</button>
                         <button data-filter=".consultancy">Consultancy</button>
                         <button data-filter=".support">Support</button>
+=======
+                        {/* <button data-filter=".design">UX Design</button>
+                        <button data-filter=".business">HR Business</button>
+                        <button data-filter=".consultancy">Consultancy</button>
+                        <button data-filter=".support">Support</button> */}
+>>>>>>> ffb192f (1245)
                      </div>
                   </div>
                </div>

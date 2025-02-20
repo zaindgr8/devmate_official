@@ -20,7 +20,7 @@ const PortfolioItemsArea = () => {
       return setItems(portfolio_data_two);
     } else {
       const findItems = portfolio_data_two.filter((findItem) => {
-        return findItem.category == cateItem;
+        return findItem.category === cateItem;
       });
       setItems(findItems);
     }
@@ -30,8 +30,6 @@ const PortfolioItemsArea = () => {
     <>
       <div className="tp-portfoliop-page-area pt-120 pb-120">
         <div className="container">
-
-
           <div className="tp-portfolio-header mb-30">
             <div className="row">
               <div className="col-12">
@@ -50,7 +48,6 @@ const PortfolioItemsArea = () => {
             </div>
           </div>
 
-
           <motion.div layout className="row tp-portfolio-isotop-active">
             {items.map((item, i) => (
               <div
@@ -64,15 +61,17 @@ const PortfolioItemsArea = () => {
                   <div className="pf-single-item__info">
                     <span>{item.title}</span>
                     <h3 className="pf-single-item__title">
-                      <Link href="/portfolio-details">{item.name}</Link>
+                      <Link target="_blank" href={item.link}>
+                        {item.name}
+                      </Link>
                     </h3>
                   </div>
                 </div>
               </div>
             ))}
           </motion.div>
-
-          <div className="pt-istop-btn-wrapper text-center mt-30">
+{/* 
+          <div className="text-center mt-30">
             <a href="#" className="tp-common-btn">
               load more
               <span>
@@ -80,7 +79,7 @@ const PortfolioItemsArea = () => {
                 <i className="fal fa-plus"></i>
               </span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
