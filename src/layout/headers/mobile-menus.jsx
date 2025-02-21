@@ -48,7 +48,8 @@ const MobileMenus = () => {
                     </li>
                   ))}
                 </ul>
-                <a
+                {/* Remove the plus sign */}
+                {/* <a
                   className={`mean-expand ${
                     navTitle === menu.title ? "mean-clicked" : ""
                   }`}
@@ -56,7 +57,7 @@ const MobileMenus = () => {
                   style={{ fontSize: "18px", cursor: "pointer" }}
                 >
                   <i className="fal fa-plus"></i>
-                </a>
+                </a> */}
               </li>
             )}
 
@@ -87,7 +88,8 @@ const MobileMenus = () => {
                         ))}
                       </ul>
 
-                      <a
+                      {/* Remove the plus sign */}
+                      {/* <a
                         className={`mean-expand ${
                           subMenu === mega_m.title ? "mean-clicked" : ""
                         }`}
@@ -95,12 +97,13 @@ const MobileMenus = () => {
                         style={{ fontSize: "18px", cursor: "pointer" }}
                       >
                         <i className="fal fa-plus"></i>
-                      </a>
+                      </a> */}
                     </li>
                   ))}
                 </ul>
 
-                <a
+                {/* Remove the plus sign */}
+                {/* <a
                   className={`mean-expand ${
                     navTitle === menu.title ? "mean-clicked" : ""
                   }`}
@@ -108,7 +111,7 @@ const MobileMenus = () => {
                   style={{ fontSize: "18px", cursor: "pointer" }}
                 >
                   <i className="fal fa-plus"></i>
-                </a>
+                </a> */}
               </li>
             )}
           </React.Fragment>

@@ -30,7 +30,7 @@ const HeaderThree = () => {
                 </div>
                 <div className="col-xl-6 col-lg-9 d-none d-xl-block">
                   <div className="main-menu da-menu">
-                    <nav id="mobile-menu"><NavMenu /></nav>
+                    <nav id=""><NavMenu /></nav>
                   </div>
                 </div>
                 <div className="col-xl-3 d-none d-xl-block">
@@ -70,21 +70,23 @@ const HeaderThree = () => {
                         </button>
                       </form>
                     </div>
-                    {/* <div
+
+                    <div
                       className="tp-header-nav"
                       onClick={() => setIsActive(true)}
                     >
                       <span></span>
                       <span></span>
-                    </div> */}
+                    </div>
                   </div>
                 </div>
+                
               </div>
             </div>
           </div>
         </div>
       </header>
-      {/* <Sidebar isActive={isActive} setIsActive={setIsActive} /> */}
+      <Sidebar isActive={isActive} setIsActive={setIsActive} />
     </>
   );
 };
