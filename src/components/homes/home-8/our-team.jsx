@@ -31,13 +31,13 @@ const OurTeam = () => {
                   >
                     <div className=" w-img mb-35 fix">
                       <img src={item.img} alt="" />
-                      {/* <div className="ca-team-item__img-social">
+                      <div className="ca-team-item__img-social">
                                     <a href="#"><i className="fab fa-facebook-f"></i></a>
                                     <a href="#"><i className="fab fa-twitter"></i></a>
                                     <a href="#"><i className="fab fa-behance"></i></a>
                                     <a href="#"><i className="fab fa-youtube"></i></a>
                                     <a href="#"><i className="fab fa-linkedin"></i></a>
-                                </div> */}
+                                </div>
                     </div>
                     <div className="ca-team-item__content">
                       <h3 className="ca-team-item__content-title">

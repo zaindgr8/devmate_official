@@ -4,8 +4,8 @@ import React from "react";
 
 
 const team_content = {
-    title: "Our Team",
-    st_title: <>Our <span>Team</span> </>,
+    title: "We Are Operating Globally",
+    st_title: <>OUR <span>PARTNERS</span> </>,
     btn: "Our Team",
     bg_img: "/assets/img/team/da-deam-info-bg.png"
 
@@ -26,16 +26,13 @@ const OurTeam = () => {
                   <span className="tp-section__subtitle mb-15 shadow-none text-grey p-0 wow tpfadeUp">
                     {title}
                   </span>
-                  <h2
-                    className="tp-section__title mb-30 wow tpfadeUp"
-                    data-wow-delay=".4s"
-                  >
-                    {st_title}
+                  <h2 className=" mb-30 wow tpfadeUp text-6xl" data-wow-delay=".4s">
+                    <b>{st_title}</b>
                   </h2>
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            {/* <div className="col-md-4">
               <div className="da-team-btn-wrapper text-md-end mb-60 wow tpfadeUp">
                 <Link href="/team" className="tp-border-btn br-btn-bg-dark">
                   {btn}
@@ -45,7 +42,7 @@ const OurTeam = () => {
                   </span>
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="row">
             {team_data.slice(0, 3).map((member, i) => (
@@ -65,7 +62,7 @@ const OurTeam = () => {
                   >
                     <span>{member.title}</span>
                     <h3 className="da-team-name">
-                      <Link href="/team-2">{member.name}</Link>
+                      <Link target="_blank" href={member.link}>{member.name}</Link>
                     </h3>
                   </div>
                 </div>

@@ -18,7 +18,7 @@
     & span {
         display: inline-block;
         margin-bottom: 10px;
-        background-image: -webkit-linear-gradient(180deg, #fe7a8f, #5a6ef8);
+        background-image: -webkit-linear-gradient(180deg, #BD2120,#BD2120 );
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -61,14 +61,14 @@
     }
 
     &:hover {
-        background-image: -webkit-linear-gradient(180deg, #fe7a8f, #5a6ef8);
+        background-image: -webkit-linear-gradient(180deg, #BD2120, #BD2120);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 
     & a {
-        background-image: linear-gradient(#fe7a8f, #5a6ef8), linear-gradient(#fe7a8f, #5a6ef8);
+        background-image: linear-gradient(#BD2120, #BD2120), linear-gradient(#BD2120, #BD2120);
         display: inline;
         background-size: 0% 1px, 0 1px;
         background-position: 100% 100%, 0 100%;
