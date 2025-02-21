@@ -45036,11 +45036,11 @@ xloading-bar
   background-size: 0% 1px, 100% 1px;
 }
 .tp-job-item__btn {
-  color: #b2b8bc;
+  color: #BE2221;
   font-weight: 700;
 }
 .tp-job-item__btn :hover {
-  color: #ccc8ff;
+  color: #BE2221;
 }
 .tp-job-item__btn i {
   padding-left: 8px;

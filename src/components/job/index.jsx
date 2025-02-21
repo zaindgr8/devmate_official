@@ -1,6 +1,6 @@
 import BreadcrumbArea from "@/src/common/breadcrumb-area";
-import Footer from "@/src/layout/footers/footer";
-import Header from "@/src/layout/headers/header";
+import Footer from "@/src/layout/footers/footer-3";
+import Header from "@/src/layout/headers/header-3";
 import React from "react";
 import JobContentArea from "./job-content-area";
 import JobImgGallery from "./job-img-gallery";
@@ -12,7 +12,7 @@ const Job = () => {
       <Header />
       <BreadcrumbArea acive_menu="Careers" title="Job Listings" />
       <JobContentArea />
-      <JobImgGallery />
+      {/* <JobImgGallery /> */}
       <JobPostArea />
       <Footer />
     </>
