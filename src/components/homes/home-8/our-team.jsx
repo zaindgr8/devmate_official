@@ -7,7 +7,8 @@ const OurTeam = () => {
       <>
         <div className=" pt-80 pb-40">
           <div className="container">
-            <div className="row">
+
+            {/* <div className="row">
               <div className="col-12 wow tpfadeUp">
                 <div className="section-title-wraper">
                   <div className="tp-section">
@@ -21,7 +22,8 @@ const OurTeam = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
+
             <div className="row">
               {team_data.slice(3, 7).map((item, i) => (
                 <div key={i} className="col-md-6 col-lg-4 col-xl-3">
@@ -31,13 +33,13 @@ const OurTeam = () => {
                   >
                     <div className=" w-img mb-35 fix">
                       <img src={item.img} alt="" />
-                      <div className="ca-team-item__img-social">
+                      {/* <div className="ca-team-item__img-social">
                                     <a href="#"><i className="fab fa-facebook-f"></i></a>
                                     <a href="#"><i className="fab fa-twitter"></i></a>
                                     <a href="#"><i className="fab fa-behance"></i></a>
                                     <a href="#"><i className="fab fa-youtube"></i></a>
                                     <a href="#"><i className="fab fa-linkedin"></i></a>
-                                </div>
+                                </div> */}
                     </div>
                     <div className="ca-team-item__content">
                       <h3 className="ca-team-item__content-title">

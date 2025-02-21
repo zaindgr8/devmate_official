@@ -5,7 +5,7 @@ import React from "react";
 import AboutMe from "../../about-me";
 import GallerySlider from "../home-6/gallery-slider";
 import Portfolio from "../home-6/portfolio";
-// import OurTeam from "../home-8/our-team";
+import OurTeam1 from "../home-8/our-team";
 import About from "./about";
 import BlogArea from "./blog-area";
 import CtaArea from "./cta-area";
@@ -26,18 +26,15 @@ const HomeThree = () => {
       <HeaderThree />
       <HeroBanner />
       <FeatureLists />
-      {/* <GallerySlider /> */}
       <Portfolio />
-      {/* <ProjectArea /> */}
       <About />
       <Testimonial />
       <ServiceArea />
       <CtaArea />
-      {/* <OurTeam /> */}
       <OurTeam />
+      {/* <OurTeam1/> */}
       <PricePlan />
       <AboutMe />
-      {/* <BlogArea /> */}
       <FooterThree />
     </>
   );

@@ -5,7 +5,7 @@ import Link  from "next/link";
 const portfolio_data = [
   {
     id: 1,
-    title: "My Dent Ai (Devmate's Start Up) 🇺🇸",
+    title: "My Dent Ai 🇺🇸",
     hover_img: "/assets/img/portfolio/5.svg",
     cls: "mp-portfolio-btn",
     link: "http://mydent.ai/",
@@ -36,9 +36,9 @@ const portfolio_data = [
 const Portfolio = () => {
     return (
       <>
-        <div className="mp-portfolio pb-120 fix">
+        <div className="mp-portfolio fix">
           <div className="container">
-            <span className="mp-portfolio-area-title wow tpfadeUp text-black font-bold text-2xl">
+            <span className="tp-section__subtitle mb-5 shadow-none text-grey p-0 mt-20">
               Our Success Stories
             </span>
             {portfolio_data.map((item, i) => (
@@ -88,10 +88,10 @@ const Portfolio = () => {
               </div>
             ))}
             <div className="mp-pt-btn-wrapper text-center pt-60 wow tpfadeUp">
-             <Link
-              href="/portfolio-2"
-              className="tp-border-btn br-btn-bg-dark border-radious-none tp-btn-hover alt-black-color"
-            >
+              <Link
+                href="/portfolio-2"
+                className="tp-border-btn br-btn-bg-dark border-radious-none tp-btn-hover alt-black-color"
+              >
                 More Works
                 <span className="ml-10">
                   <i className="fal fa-long-arrow-right"></i>
@@ -103,7 +103,6 @@ const Portfolio = () => {
           </div>
         </div>
       </>
-
     );
 };
 

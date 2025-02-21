@@ -30,7 +30,7 @@ const HeaderThree = () => {
                 </div>
                 <div className="col-xl-6 col-lg-9 d-none d-xl-block">
                   <div className="main-menu da-menu">
-                    <nav id="mobile-menu">{/* <NavMenu /> */}</nav>
+                    <nav id="mobile-menu"><NavMenu /></nav>
                   </div>
                 </div>
                 <div className="col-xl-3 d-none d-xl-block">
