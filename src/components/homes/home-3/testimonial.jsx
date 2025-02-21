@@ -158,7 +158,7 @@ const Testimonial = () => {
                     {title}
                   </span>
                   <h2 className="tp-section__title text-white mb-30 black-line">
-                    Hear from 
+                    Hear from
                     <b className="text-red-700"> Our Clients</b>
                   </h2>
                 </div>
@@ -210,7 +210,7 @@ const Testimonial = () => {
                   </SwiperSlide>
                 ))}
               </Swiper>
-              <div className="da-testi-navigation d-none d-md-block">
+              <div className="da-testi-navigation d-block">
                 <div className="da-testi-button-prev">
                   <i className="fal fa-long-arrow-left"></i>
                 </div>
