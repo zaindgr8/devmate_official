@@ -1,13 +1,12 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import NavMenu from "./nav-menu";
-import Link from "next/link"; 
-import useSticky from './../../../hooks/use-sticky';
+import Link from "next/link";
+import useSticky from "./../../../hooks/use-sticky";
 import Sidebar from "@/src/layout/headers/sidebar";
 
 const HeaderThree = () => {
-
   const { sticky } = useSticky();
- const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(false);
 
   return (
     <>
@@ -28,11 +27,15 @@ const HeaderThree = () => {
                     </Link>
                   </div>
                 </div>
+
                 <div className="col-xl-6 col-lg-9 d-none d-xl-block">
                   <div className="main-menu da-menu">
-                    <nav id=""><NavMenu /></nav>
+                    <nav id="mobile-menu">
+                      <NavMenu />
+                    </nav>
                   </div>
                 </div>
+
                 <div className="col-xl-3 d-none d-xl-block">
                   <div className="da-header-cta-btn float-end mt-35">
                     <a
@@ -62,14 +65,15 @@ const HeaderThree = () => {
 
                 <div className="col-9 d-xl-none d-block">
                   <div className="tp-header-search-nav d-flex justify-content-end">
-                    <div className="tp-header-search p-relative">
+                    
+                    {/* <div className="tp-header-search p-relative">
                       <form onSubmit={(e) => e.preventDefault()}>
                         <input type="text" placeholder="Keyword..." />
                         <button type="submit">
                           <i className="fal fa-search"></i>
                         </button>
                       </form>
-                    </div>
+                    </div> */}
 
                     <div
                       className="tp-header-nav"
@@ -78,6 +82,7 @@ const HeaderThree = () => {
                       <span></span>
                       <span></span>
                     </div>
+                    
                   </div>
                 </div>
                 
