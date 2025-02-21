@@ -29,7 +29,7 @@ const HeroAboutMe = () => {
                     transitionSpeed={1000}
                     gyroscope={true}
                   >
-                    <img src="/assets/img/about/mee.jpg" alt="" />
+                    <img src="/assets/img/about/me.svg" alt="" />
                   </Tilt>
                 </div>
               </div>

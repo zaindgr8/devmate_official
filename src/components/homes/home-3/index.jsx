@@ -29,14 +29,12 @@ const HomeThree = () => {
       {/* <GallerySlider /> */}
       <Portfolio />
       {/* <ProjectArea /> */}
-
       <About />
       <Testimonial />
       <ServiceArea />
       <CtaArea />
       {/* <OurTeam /> */}
       <OurTeam />
-      <PricePlan />
       <PricePlan />
       <AboutMe />
       {/* <BlogArea /> */}
