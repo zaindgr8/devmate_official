@@ -44,7 +44,10 @@ const FooterThree = ({style_4}) => {
                         </span>
                         <span>
                           <span className="d-block mb-0">
-                            400 17th St Atlanta GA 30363
+                            USA: 400 17th St Atlanta GA 30363
+                          </span>
+                          <span className="d-block mb-0">
+                            Oman: Al Mouj, Muscat
                           </span>
                           <b>
                             <a href="callto:+971585984869">
