@@ -44,11 +44,11 @@ const FooterThree = ({style_4}) => {
                         </span>
                         <span>
                           <span className="d-block mb-0">
-                            Business Bay, Dubai
+                            400 17th St Atlanta GA 30363
                           </span>
                           <b>
                             <a href="callto:+971585984869">
-                              Call Us: +971 58 598 4869{" "}
+                              Call Us: +968 96466583{" "}
                             </a>
                           </b>
                         </span>
@@ -100,7 +100,7 @@ const FooterThree = ({style_4}) => {
                             target="_blank"
                             href="https://www.facebook.com/devmatesolutions"
                           >
-                            <i  className="fab fa-facebook-f text-red-700"></i>
+                            <i className="fab fa-facebook-f text-red-700"></i>
                           </a>
                         </span>
                         <span>
