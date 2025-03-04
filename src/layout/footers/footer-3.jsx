@@ -51,7 +51,7 @@ const FooterThree = ({style_4}) => {
                           </span>
                           <b>
                             <a href="callto:+971585984869">
-                              Call Us: +968 96466583{" "}
+                              Call Us: +968 96466583 .{" "}
                             </a>
                           </b>
                         </span>
