@@ -38,6 +38,12 @@ const job_post_data = [
     location: "Remote",
     title: "Social Media Expert",
   },
+  {
+    id: 7,
+    job_info: "Full-Time",
+    location: "Remote",
+    title: "SEO Expert",
+  },
 ];
 
 const JobPostArea = () => {
