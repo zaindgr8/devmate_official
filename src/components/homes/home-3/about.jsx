@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import Tilt from "react-parallax-tilt";
 
-
 const About = () => {
   return (
     <>
@@ -73,7 +72,7 @@ const About = () => {
                 <div className="tp--indo-btns d-flex flex-wrap align-items-center">
                   <div className="tp-da-link-btn mr-30 mb-30">
                     <Link
-                      href="https://calendly.com/devmatesolutions/get-started-elevate-your-business-with-devmate"
+                      href="https://devmatesolutionsai.vercel.app/"
                       className="tp-grd-btn"
                     >
                       Unlock FREE Session

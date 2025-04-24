@@ -27,8 +27,8 @@ const CtaArea = () => {
               <div className="col-xl-4 d-none d-lg-block">
                 <div className="da-cta-wraper mr-60 text-end">
                   <Link
-                  target="_blank"
-                    href="https://calendly.com/devmatesolutions/get-started-elevate-your-business-with-devmate"
+                    target="_blank"
+                    href="https://devmatesolutionsai.vercel.app/"
                     className="tp-grd-btn"
                   >
                     Get Started

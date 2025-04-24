@@ -5,20 +5,65 @@ import menu_data from "./menu-data";
 const NavMenu = () => {
   return (
     <>
-      <ul>
+      <ul
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: "30px",
+          listStyle: "none",
+          margin: 0,
+          padding: 0,
+        }}
+      >
         {menu_data.map((item, i) => (
-          <li
-            key={i}
-            // className={`${item.has_dropdown ? "has-dropdown" : ''} ${
-            //   item.mega_menus ? "has-megamenu" : ''
-            // }`}
-          >
-            <Link href={item.link}>{item.title}</Link>
+          <li key={i} style={{ display: "inline-block" }}>
+            {item.title === "AI Demo" ? (
+              <Link
+                href={item.link}
+                style={{
+                  backgroundColor: "#000000",
+                  color: "#ffffff",
+                  padding: "8px 16px",
+                  borderRadius: "4px",
+                  display: "inline-block",
+                  fontWeight: "500",
+                  transition: "all 0.3s ease",
+                  textDecoration: "none",
+                  whiteSpace: "nowrap",
+                  textTransform: "uppercase",
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.backgroundColor = "#333333";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.backgroundColor = "#000000";
+                }}
+              >
+                {item.title}
+              </Link>
+            ) : (
+              <Link
+                href={item.link}
+                style={{
+                  textDecoration: "none",
+                  color: "inherit",
+                  display: "inline-block",
+                }}
+              >
+                {item.title}
+              </Link>
+            )}
             {item.sub_menus && (
               <ul className="submenu">
                 {item.sub_menus.map((sub_item, sub_i) => (
                   <li key={sub_i}>
-                    <Link href={sub_item.link}>{sub_item.title}</Link>
+                    <Link
+                      href={sub_item.link}
+                      target={sub_item.new_tab ? "_blank" : "_self"}
+                      rel={sub_item.new_tab ? "noopener noreferrer" : ""}
+                    >
+                      {sub_item.title}
+                    </Link>
                   </li>
                 ))}
               </ul>

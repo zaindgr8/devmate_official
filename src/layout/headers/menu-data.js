@@ -10,21 +10,21 @@ const menu_data = [
     id: 2,
     mega_menu: false,
     has_dropdown: true,
-    title: "Our Services",
+    title: "Services",
     link: "/service-3",
   },
   {
     id: 3,
     mega_menu: false,
     has_dropdown: false,
-    title: "Our Portfolio",
+    title: "Portfolio",
     link: "/portfolio-2",
   },
   {
     id: 4,
     mega_menu: false,
     has_dropdown: true,
-    title: "Our Team",
+    title: "Team",
     link: "/team-2",
   },
   {
@@ -33,6 +33,25 @@ const menu_data = [
     has_dropdown: true,
     title: "Career",
     link: "/job",
+  },
+  {
+    id: 6,
+    mega_menu: false,
+    has_dropdown: true,
+    title: "AI Demo",
+    link: "#",
+    sub_menus: [
+      {
+        title: "Book Demo - Team",
+        link: "https://devmatesolutionsai.vercel.app/",
+        new_tab: true,
+      },
+      {
+        title: "Book Demo - CEO",
+        link: "https://zainulabideenai.vercel.app/",
+        new_tab: true,
+      },
+    ],
   },
 ];
 export default menu_data;

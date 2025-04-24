@@ -64,7 +64,7 @@ const HeroAboutMe = () => {
                   <div className="mb-8">
                     <div className="text-start">
                       <Link
-                        href="https://calendly.com/devmatesolutions/1-1-strategic-session-with-zain-ul-abideen"
+                        href="https://zainulabideenai.vercel.app/"
                         target="_blank"
                         className="tp-grd-btn text-white"
                       >

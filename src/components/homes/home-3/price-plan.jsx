@@ -86,8 +86,8 @@ const PricePlan = () => {
                   </div>
                   <div className="tp-purcase-btn--wrapper mb-25">
                     <Link
-                    target="_blank"
-                      href="https://calendly.com/devmatesolutions/get-started-elevate-your-business-with-devmate"
+                      target="_blank"
+                      href="https://devmatesolutionsai.vercel.app/"
                       className="tp-grd-border-btn"
                     >
                       <span className="mr-5">

@@ -40,7 +40,7 @@ const HeaderThree = () => {
                   <div className="da-header-cta-btn float-end mt-35">
                     <a
                       target="_blank"
-                      href="https://calendly.com/devmatesolutions/get-started-elevate-your-business-with-devmate"
+                      href="https://devmatesolutionsai.vercel.app/"
                       className="tp-grd-btn "
                     >
                       Book Demo
@@ -65,7 +65,6 @@ const HeaderThree = () => {
 
                 <div className="col-9 d-xl-none d-block">
                   <div className="tp-header-search-nav d-flex justify-content-end">
-                    
                     {/* <div className="tp-header-search p-relative">
                       <form onSubmit={(e) => e.preventDefault()}>
                         <input type="text" placeholder="Keyword..." />
@@ -82,10 +81,8 @@ const HeaderThree = () => {
                       <span></span>
                       <span></span>
                     </div>
-                    
                   </div>
                 </div>
-                
               </div>
             </div>
           </div>
