@@ -53,7 +53,7 @@ const FormApp = () => {
         discover how <span className="font-semibold">Devmate Solutions</span>{" "}
         can transform your software needs.
       </p>
-      <p className="italic text-left text-gray-500 dark:text-gray-400 text-sm mb-2">
+      <p className="italic text-left text-gray-500  text-sm mb-2">
         We'd love to checkmate your software queries!
       </p>
       <div className="flex flex-col sm:flex-row gap-4 mt-2">

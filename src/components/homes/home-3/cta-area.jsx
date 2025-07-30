@@ -1,9 +1,14 @@
-import React from "react";
-import  Link  from 'next/link';
+import React, { useState } from "react";
+import FormModal from "../../FormModal";
 
 const CtaArea = () => {
+  const [showModal, setShowModal] = useState(false);
+
   return (
     <>
+      {showModal && (
+        <FormModal isOpen={showModal} onClose={() => setShowModal(false)} />
+      )}
       <div
         className="da-cta-section d-none d-lg-block wow tpfadeUp py-2"
         data-wow-delay=".3s"
@@ -16,27 +21,32 @@ const CtaArea = () => {
             <div className="row">
               <div className="col-lg-8 col-12">
                 <div className="da-cta-info ml-160">
-                  <h4>
-                    🚀 We Can Help You Replace Humans with AI 🤖 <br />
-                    Save More with Our Smart Automation Solutions! 💡💸
-                    <br />
-                    Why Hire Humans when AI does it better? 🤔✨
-                  </h4>
+                  <h4>Do You Want Us To Checkmate Your Software Challenges?</h4>
+                  <p
+                    style={{
+                      fontSize: "20px",
+                      fontWeight: "bold",
+                      lineHeight: "1.2",
+          
+                    }}
+                    className="text-gray-600"
+                  >
+                    Get Call from FREYA our AI Assistant Now Within 60 Seconds!!
+                  </p>
                 </div>
               </div>
               <div className="col-xl-4 d-none d-lg-block">
                 <div className="da-cta-wraper mr-60 text-end">
-                  <Link
-                    target="_blank"
-                    href="https://devmatesolutionsai.vercel.app/"
+                  <button
+                    onClick={() => setShowModal(true)}
                     className="tp-grd-btn"
                   >
-                    Get Started
+                    Get Call Now
                     <span className="ml-10">
                       <i className="fal fa-long-arrow-right"></i>
                       <i className="fal fa-long-arrow-right"></i>
                     </span>
-                  </Link>
+                  </button>
                 </div>
               </div>
             </div>

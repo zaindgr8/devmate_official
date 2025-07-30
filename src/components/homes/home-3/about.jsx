@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Tilt from "react-parallax-tilt";
+import FormModal from "../../FormModal";
 
 const About = () => {
+  const [showModal, setShowModal] = useState(false);
+
   return (
     <>
+      {showModal && <FormModal />}
       <div className="tp-da-about pt-60 pb-90">
         <div className="container">
           <div className="row align-items-center">
@@ -71,16 +75,16 @@ const About = () => {
                 </div>
                 <div className="tp--indo-btns d-flex flex-wrap align-items-center">
                   <div className="tp-da-link-btn mr-30 mb-30">
-                    <Link
-                      href="https://devmatesolutionsai.vercel.app/"
+                    <button
+                      onClick={() => setShowModal(true)}
                       className="tp-grd-btn"
                     >
-                      Unlock FREE Session
+                      Get Instant Call
                       <span className="ml-10">
                         <i className="fal fa-long-arrow-right"></i>
                         <i className="fal fa-long-arrow-right"></i>
                       </span>
-                    </Link>
+                    </button>
                   </div>
                 </div>
               </div>

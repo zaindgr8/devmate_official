@@ -49,11 +49,7 @@ const FooterThree = ({style_4}) => {
                           <span className="d-block mb-0">
                             Oman: Al Mouj, Muscat
                           </span>
-                          <b>
-                            <a href="callto:+971585984869">
-                              Call Us: +968 96466583 .{" "}
-                            </a>
-                          </b>
+                        
                         </span>
                       </div>
                       <div className="tp-footer-cta d-flex align-items-center mb-30">
