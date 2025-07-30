@@ -43,11 +43,11 @@ const FormApp = () => {
       onSubmit={handleSubmit}
       className="w-full bg-white dark:bg-[#18181b] rounded-2xl shadow-xl p-6 sm:p-8 flex flex-col gap-4 border border-gray-100 dark:border-gray-800 relative"
     >
-      <h1 className="text-2xl sm:text-3xl font-bold text-left text-[#1a1a1a] dark:text-[#ededed] leading-tight mb-1">
+      <h1 className="text-2xl sm:text-3xl font-bold text-left text-[#1a1a1a]  leading-tight mb-1">
         Experience The Future!{" "}
         <span className="text-[#e11d48]">Get Ai Call Now!</span>
       </h1>
-      <p className="text-left text-gray-600 dark:text-gray-300 text-base mb-2">
+      <p className="text-left text-gray-600 text-base mb-2">
         Fill out the form below to receive a call from our{" "}
         <span className="font-semibold text-[#e11d48]">24/7 AI Agent</span> and
         discover how <span className="font-semibold">Devmate Solutions</span>{" "}
