@@ -44,20 +44,15 @@ const FormApp = () => {
       className="w-full bg-white dark:bg-[#18181b] rounded-2xl shadow-xl p-6 sm:p-8 flex flex-col gap-4 border border-gray-100 dark:border-gray-800 relative"
     >
       <h1 className="text-2xl sm:text-3xl font-bold text-left text-[#1a1a1a]  leading-tight mb-1">
-        Experience The Future!{" "}
-        <span className="text-[#e11d48]"> Request Instant Call Now!</span>
+        Get Call from FREYA within 60 Seconds!{" "}
+        <span className="text-[#e11d48]"> our 24/7 smart AI Assistant</span>
       </h1>
       <p className="text-left text-gray-600 text-base mb-2">
-        Fill out the form below to receive a call{" "}
-        <span className="font-semibold text-[#e11d48]">within 60 seconds</span>{" "}
-        from our{" "}
-        <span className="font-semibold text-[#e11d48]">24/7 Customer Care</span>{" "}
-        and discover how{" "}
-        <span className="font-semibold text-[#e11d48]">DEVMATE SOLUTIONS</span>{" "}
-        can transform your software needs.
-      </p>
-      <p className="italic text-left text-gray-500  text-sm mb-2">
-        We'd love to checkmate your software queries!
+        Fill out the quick form below and get an instant call from FREYA, our
+        smart AI assistant — active 24/7 just for you. <br /> <br/>
+        She’ll ask the right questions about your software needs, business
+        goals, or tech struggles, and collect everything our team needs to jump
+        in with real solutions.
       </p>
       <div className="flex flex-col sm:flex-row gap-4 mt-2">
         <label htmlFor="name" className="flex flex-col gap-1 w-full">
