@@ -45,12 +45,15 @@ const FormApp = () => {
     >
       <h1 className="text-2xl sm:text-3xl font-bold text-left text-[#1a1a1a]  leading-tight mb-1">
         Experience The Future!{" "}
-        <span className="text-[#e11d48]">Get Ai Call Now!</span>
+        <span className="text-[#e11d48]"> Request Instant Call Now!</span>
       </h1>
       <p className="text-left text-gray-600 text-base mb-2">
-        Fill out the form below to receive a call from our{" "}
-        <span className="font-semibold text-[#e11d48]">24/7 AI Agent</span> and
-        discover how <span className="font-semibold">Devmate Solutions</span>{" "}
+        Fill out the form below to receive a call{" "}
+        <span className="font-semibold text-[#e11d48]">within 60 seconds</span>{" "}
+        from our{" "}
+        <span className="font-semibold text-[#e11d48]">24/7 Customer Care</span>{" "}
+        and discover how{" "}
+        <span className="font-semibold text-[#e11d48]">DEVMATE SOLUTIONS</span>{" "}
         can transform your software needs.
       </p>
       <p className="italic text-left text-gray-500  text-sm mb-2">
