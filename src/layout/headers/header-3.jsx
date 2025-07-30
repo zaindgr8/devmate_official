@@ -3,13 +3,18 @@ import NavMenu from "./nav-menu";
 import Link from "next/link";
 import useSticky from "./../../../hooks/use-sticky";
 import Sidebar from "@/src/layout/headers/sidebar";
+import FormModal from "@/src/components/FormModal";
 
 const HeaderThree = () => {
   const { sticky } = useSticky();
   const [isActive, setIsActive] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <>
+      {showModal && (
+        <FormModal isOpen={showModal} onClose={() => setShowModal(false)} />
+      )}
       <header>
         <div
           id="header-sticky"
@@ -38,17 +43,16 @@ const HeaderThree = () => {
 
                 <div className="col-xl-3 d-none d-xl-block">
                   <div className="da-header-cta-btn float-end mt-35">
-                    <a
-                      target="_blank"
-                      href="https://devmatesolutionsai.vercel.app/"
-                      className="tp-grd-btn "
+                    <button
+                      onClick={() => setShowModal(true)}
+                      className="tp-grd-btn"
                     >
-                      Book Demo
+                      Get Instant Call
                       <span className="ml-10">
                         <i className="fal fa-long-arrow-right"></i>
                         <i className="fal fa-long-arrow-right"></i>
                       </span>
-                    </a>
+                    </button>
                     <p className="mt-10 mb-0">
                       or send an
                       <b>
