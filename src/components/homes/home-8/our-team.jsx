@@ -43,7 +43,7 @@ const OurTeam = () => {
                     </div>
                     <div className="ca-team-item__content">
                       <h3 className="ca-team-item__content-title">
-                        <Link href="/team-details">{item.name}</Link>
+                        <Link href="">{item.name}</Link>
                       </h3>
                       <span>{item.title}</span>
                     </div>
