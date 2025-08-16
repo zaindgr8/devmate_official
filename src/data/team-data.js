@@ -51,7 +51,21 @@ const team_data = [
     id: 7,
     img: "/assets/img/team/2.png",
     name: "Ahmad Noor Khan",
-    title: "Block Chain Developer",
+    title: "Blockchain Developer",
+    delay: ".6s",
+  },
+  {
+    id: 8,
+    img: "/assets/img/team/8.png",
+    name: "Saqib Khan",
+    title: "Web Designer",
+    delay: ".6s",
+  },
+  {
+    id: 9,
+    img: "/assets/img/team/9.png",
+    name: "Habib Solangi",
+    title: "ML & IOT Specialist",
     delay: ".6s",
   },
 
