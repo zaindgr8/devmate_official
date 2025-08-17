@@ -68,6 +68,13 @@ const team_data = [
     title: "ML & IOT Specialist",
     delay: ".6s",
   },
+   {
+    id: 10,
+    img: "/assets/img/team/10.png",
+    name: "Syed Furqan",
+    title: "SEO Specialist",
+    delay: ".6s",
+  },
 
   // team page  01
   {
