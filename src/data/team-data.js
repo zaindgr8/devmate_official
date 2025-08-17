@@ -43,7 +43,7 @@ const team_data = [
   {
     id: 6,
     img: "/assets/img/team/3.png",
-    name: "Fawad",
+    name: "Fawad Shah",
     title: "Wordpress Developer",
     delay: ".5s",
   },
