@@ -29,7 +29,27 @@ const MobileMenus = () => {
           <React.Fragment key={i}>
             {!menu.has_dropdown && (
               <li>
-                <Link href={menu.link}>{menu.title}</Link>
+                {menu.title === "Book Demo" ? (
+                  <Link
+                    href={menu.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      backgroundColor: "#000000",
+                      color: "#ffffff",
+                      padding: "8px 16px",
+                      borderRadius: "4px",
+                      display: "inline-block",
+                      fontWeight: "500",
+                      textDecoration: "none",
+                      whiteSpace: "nowrap",
+                    }}
+                  >
+                    {menu.title}
+                  </Link>
+                ) : (
+                  <Link href={menu.link}>{menu.title}</Link>
+                )}
               </li>
             )}
 

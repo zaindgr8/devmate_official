@@ -17,9 +17,11 @@ const NavMenu = () => {
       >
         {menu_data.map((item, i) => (
           <li key={i} style={{ display: "inline-block" }}>
-            {item.title === "AI Demo" ? (
+            {item.title === "Book Demo" ? (
               <Link
                 href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{
                   backgroundColor: "#000000",
                   color: "#ffffff",
@@ -30,7 +32,7 @@ const NavMenu = () => {
                   transition: "all 0.3s ease",
                   textDecoration: "none",
                   whiteSpace: "nowrap",
-                  textTransform: "uppercase",
+                  lineHeight: 1.2,
                 }}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.backgroundColor = "#333333";
