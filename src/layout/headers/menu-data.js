@@ -37,21 +37,9 @@ const menu_data = [
   {
     id: 6,
     mega_menu: false,
-    has_dropdown: true,
-    title: "AI Demo",
-    link: "#",
-    sub_menus: [
-      {
-        title: "Book Demo - Team",
-        link: "https://devmatesolutionsai.vercel.app/",
-        new_tab: true,
-      },
-      {
-        title: "Book Demo - CEO",
-        link: "https://zainulabideenai.vercel.app/",
-        new_tab: true,
-      },
-    ],
+    has_dropdown: false,
+    title: "Book Demo",
+    link: "https://cal.com/devmate-solutions/secret",
   },
 ];
 export default menu_data;
