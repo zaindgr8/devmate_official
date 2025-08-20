@@ -116,6 +116,20 @@ const testimonial_data = [
       </>
     ),
   },
+  {
+    id: 8,
+    img: "/assets/img/testimonial/8.png",
+    name: "Mohammad Samari",
+    title: "CEO, IGP LLC 🇴🇲",
+    des: (
+      <>
+        "Devmate Solutions turned my complex app idea into reality, from Figma
+        to React Native with a Node.js backend, deployed on iOS & Android.
+        Highly responsive and delivered top-notch results — thanks to Zain Ul
+        Abideen and his team!"
+      </>
+    ),
+  },
 ];
 
 // slider setting 
