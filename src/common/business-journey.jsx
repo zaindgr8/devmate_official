@@ -75,7 +75,7 @@ const BusinessJourney = ({ style_service }) => {
             <div className="bs-cta-btns text-center">
               <Link
                 target="_blank"
-                href="https://devmatesolutionsai.vercel.app/"
+                href="https://cal.com/devmate-solutions/secret"
                 className={`${
                   style_service ? "tp-btn" : "tp-grd-btn"
                 } mr-30 wow tpfadeUp`}
