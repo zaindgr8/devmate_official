@@ -45,7 +45,7 @@ const FormApp = () => {
     >
       <h1 className="text-2xl sm:text-3xl font-bold text-left text-[#1a1a1a]  leading-tight mb-1">
         Get Call from FREYA within 60 Seconds!{" "}
-        <span className="text-[#e11d48]"> our 24/7 smart AI Assistant</span>
+        <span className="text-[#e11d48]"> Our 24/7 Smart AI Assistant</span>
       </h1>
       <p className="text-left text-gray-600 text-base mb-2">
         Fill out the quick form below and get an instant call from FREYA, our
