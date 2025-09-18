@@ -30,7 +30,7 @@ const portfolio_data = [
     title: "Refurbly- Vodafone🇶🇦",
     hover_img: "/assets/img/portfolio/vf.png",
     cls: "mp-portfolio-btn",
-    link: "https://alwalaaoman.com/",
+    link: "/",
   },
 ];
 
