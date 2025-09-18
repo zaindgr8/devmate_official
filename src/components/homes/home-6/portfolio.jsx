@@ -5,8 +5,8 @@ import Link  from "next/link";
 const portfolio_data = [
   {
     id: 1,
-    title: "My Dent Ai 🇺🇸",
-    hover_img: "/assets/img/portfolio/5.svg",
+    title: "Procope AI 🇺🇸",
+    hover_img: "/assets/img/portfolio/procopeai.png",
     cls: "mp-portfolio-btn",
     link: "http://mydent.ai/",
   },
@@ -19,15 +19,16 @@ const portfolio_data = [
   },
   {
     id: 3,
-    title: "Art of Living by Iman 🇫🇷",
-    hover_img: "/assets/img/portfolio/2.svg",
+    title: "Shift- Application🇴🇲",
+    hover_img: "/assets/img/portfolio/shift.png",
     cls: "mp-portfolio-btn",
-    link: "https://www.artoflivingbyiman.com/",
+    link: "/",
   },
+ 
   {
     id: 4,
-    title: "Alwala Real Estate 🇴🇲",
-    hover_img: "/assets/img/portfolio/3.svg",
+    title: "Refurbly- Vodafone🇶🇦",
+    hover_img: "/assets/img/portfolio/vf.png",
     cls: "mp-portfolio-btn",
     link: "https://alwalaaoman.com/",
   },

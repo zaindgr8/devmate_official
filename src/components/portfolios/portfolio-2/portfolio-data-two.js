@@ -133,6 +133,28 @@ const portfolio_data_two = [
     filter_id: ["all"],
     link: "https://ellingtonpropertiesdxb.com/", // Added a fallback link
   },
+  {
+    id: 13,
+    img: "/assets/img/portfolio/2.svg",
+    name: "Art of Living by Iman ",
+    title: "Private Concierge🇦🇪",
+    cls: "design support",
+    delay: ".5s",
+    category: "Website",
+    filter_id: ["all"],
+    link: "https://www.artoflivingbyiman.com/", // Added a fallback link
+  },
+  {
+    id: 14,
+    img: "/assets/img/portfolio/3.svg",
+    name: "Alwala Real Estate 🇴🇲",
+    title: "Real Estate Developer",
+    cls: "design support",
+    delay: ".5s",
+    category: "Website",
+    filter_id: ["all"],
+    link: "https://alwalaaoman.com/", // Added a fallback link
+  },
 ];
 
 export default portfolio_data_two;
