@@ -42,7 +42,7 @@ const HeaderThree = () => {
                 </div>
 
                 <div className="col-xl-3 d-none d-xl-block">
-                  <div className="da-header-cta-btn float-end mt-35">
+                  <div className="da-header-cta-btn d-flex align-items-center justify-content-end">
                     <button
                       onClick={() => setShowModal(true)}
                       className="tp-grd-btn"
@@ -53,7 +53,7 @@ const HeaderThree = () => {
                         <i className="fal fa-long-arrow-right"></i>
                       </span>
                     </button>
-                    <p className="mt-10 mb-0">
+                    {/* <p className="mt-10 mb-0">
                       or send an
                       <b>
                         <a
@@ -63,7 +63,7 @@ const HeaderThree = () => {
                           <i className="fal fa-envelope ml-1"></i> EMAIL
                         </a>
                       </b>
-                    </p>
+                    </p> */}
                   </div>
                 </div>
 

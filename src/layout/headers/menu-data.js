@@ -34,12 +34,5 @@ const menu_data = [
     title: "Career",
     link: "/job",
   },
-  {
-    id: 6,
-    mega_menu: false,
-    has_dropdown: false,
-    title: "Book Demo",
-    link: "https://cal.com/devmate-solutions/secret",
-  },
 ];
 export default menu_data;
