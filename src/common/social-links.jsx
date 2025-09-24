@@ -8,22 +8,16 @@ const social_links = [
     name: "Facebook",
   },
   {
-    link: "https://www.linkedin.com/in/zain-ul-abideen-baloch/",
+    link: "https://www.linkedin.com/in/zainulabideenai/",
     target: "_blank",
     icon: "fab fa-linkedin",
     name: "LinkedIn",
   },
   {
-    link: "https://www.instagram.com/desigeek.ai/",
+    link: "https://www.instagram.com/zainulabideen.ai/",
     target: "_blank",
     icon: "fab fa-instagram",
     name: "Instagram",
-  },
-  {
-    link: "https://www.tiktok.com/@desigeek.ai",
-    target: "_blank",
-    icon: "fab fa-tiktok",
-    name: "Youtube",
   },
   {
     link: "https://github.com/zaindgr8",
@@ -32,7 +26,7 @@ const social_links = [
     name: "Github",
   },
   {
-    link: "https://www.youtube.com/channel/UC990B95EKNuVaCVcdo_-9Yg",
+    link: "https://www.youtube.com/@zainulabideen_ai",
     target: "_blank",
     icon: "fab fa-youtube",
     name: "Youtube",
