@@ -64,7 +64,7 @@ const HeroAboutMe = () => {
                   <div className="mb-8">
                     <div className="text-start">
                       <Link
-                        href="https://zainulabideenai.vercel.app/"
+                        href="https://cal.com/devmate-solutions/secret"
                         target="_blank"
                         className="tp-grd-btn text-white"
                       >
