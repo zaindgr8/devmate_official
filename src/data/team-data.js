@@ -75,6 +75,13 @@ const team_data = [
     title: "SEO Specialist",
     delay: ".6s",
   },
+  {
+    id: 11,
+    img: "/assets/img/team/11.png",
+    name: "Mubeen Ishfaq",
+    title: "AI Project Manager",
+    delay: ".6s",
+  },
 
   // team page  01
   {
