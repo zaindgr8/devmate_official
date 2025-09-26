@@ -4,22 +4,22 @@ import React from "react";
 const feature_data = [
   {
     id: 1,
-    title: "5+ Years of Innovation",
+    title: "Since 2019",
     duration: "1000",
   },
   {
     id: 2,
-    title: "Serving 40+ Global Brands",
+    title: "40+ Global Brands",
     duration: "1500",
   },
   {
     id: 3,
-    title: "Impacting 25+ Industries",
+    title: "25+ Industries",
     duration: "2000",
   },
   {
     id: 4,
-    title: "96% Client Satisfaction",
+    title: "96% Rating",
     duration: "2500",
   },
 ];
