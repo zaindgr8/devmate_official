@@ -43,17 +43,7 @@ const FormApp = () => {
       onSubmit={handleSubmit}
       className="w-full bg-white dark:bg-[#18181b] rounded-2xl shadow-xl p-6 sm:p-8 flex flex-col gap-4 border border-gray-100 dark:border-gray-800 relative"
     >
-      <h1 className="text-2xl sm:text-3xl font-bold text-left text-[#1a1a1a]  leading-tight mb-1">
-        Get Call from FREYA within 60 Seconds!{" "}
-        <span className="text-[#e11d48]"> Our 24/7 Smart AI Assistant</span>
-      </h1>
-      <p className="text-left text-gray-600 text-base mb-2">
-        Fill out the quick form below and get an instant call from FREYA, our
-        smart AI assistant — active 24/7 just for you. <br /> <br/>
-        She’ll ask the right questions about your software needs, business
-        goals, or tech struggles, and collect everything our team needs to jump
-        in with real solutions.
-      </p>
+
       <div className="flex flex-col sm:flex-row gap-4 mt-2">
         <label htmlFor="name" className="flex flex-col gap-1 w-full">
           <span className="text-sm font-medium text-foreground">Name</span>
