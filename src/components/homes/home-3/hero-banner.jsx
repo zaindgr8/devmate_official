@@ -14,8 +14,8 @@ const HeroBanner = () => {
             <div className="col-lg-5">
               <div className="da-hero-section mt-40">
                 <span className="da-hero-section__subtitle white-bg mb-15 d-inline-block wow tpfadeUp">
-                  Enabling Digital Transformation in
-                  <b> DXB, UK, USA, FRANCE & More </b>
+                  Registered & Operating in
+                  <b> DXB, MUSCAT & NYC </b> 📍
                 </span>
                 <div className="cd-intro">
                   <h3

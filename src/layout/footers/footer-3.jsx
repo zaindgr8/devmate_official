@@ -44,12 +44,14 @@ const FooterThree = ({style_4}) => {
                         </span>
                         <span>
                           <span className="d-block mb-0">
-                            USA: 400 17th St Atlanta GA 30363
+                            UAE: Business Bay, Dubai
+                          </span>
+                          <span className="d-block mb-0">
+                            USA: Atlanta, GA
                           </span>
                           <span className="d-block mb-0">
                             Oman: Al Mouj, Muscat
                           </span>
-                        
                         </span>
                       </div>
                       <div className="tp-footer-cta d-flex align-items-center mb-30">
