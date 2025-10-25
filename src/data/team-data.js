@@ -82,6 +82,13 @@ const team_data = [
     title: "AI Project Manager",
     delay: ".6s",
   },
+  {
+    id: 12,
+    img: "/assets/img/team/Biya.png",
+    name: "Biya Khan",
+    title: "Business Developer",
+    delay: ".6s",
+  },
 
   // team page  01
   {
@@ -184,5 +191,12 @@ const team_data = [
     title: "Support Engineer",
     delay: ".6s",
   },
+  {
+    id: 22,
+    img: "/assets/img/team/Biya.png",
+    name: "Biya Khan",
+    title: "Project Manager",
+    delay: ".6s",
+  },
 ];
-export default team_data
+export default team_data;
