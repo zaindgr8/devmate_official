@@ -28,7 +28,7 @@ const team_data = [
 
   {
     id: 4,
-    img: "/assets/img/team/1.png",
+    img: "/assets/img/team/1a.png",
     name: "Fazal Khan",
     title: "Full Stack Web Developer",
     delay: ".3s",
@@ -42,23 +42,23 @@ const team_data = [
   },
   {
     id: 6,
-    img: "/assets/img/team/3.png",
-    name: "Fawad Shah",
-    title: "Wordpress Developer",
+    img: "/assets/img/team/8.png",
+    name: "Saqib Khan",
+    title: "Web Designer",
     delay: ".5s",
   },
   {
     id: 7,
-    img: "/assets/img/team/2.png",
+    img: "/assets/img/team/2a.png",
     name: "Ahmad Noor Khan",
     title: "Blockchain Developer",
     delay: ".6s",
   },
   {
     id: 8,
-    img: "/assets/img/team/8.png",
-    name: "Saqib Khan",
-    title: "Web Designer",
+    img: "/assets/img/team/3.png",
+    name: "Fawad Shah",
+    title: "Wordpress Developer",
     delay: ".6s",
   },
   {
